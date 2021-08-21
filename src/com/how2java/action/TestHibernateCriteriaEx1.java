@@ -13,7 +13,7 @@ public class TestHibernateCriteriaEx1 {
 		session.beginTransaction();
 		
 		session.createSQLQuery("");
-		System.out.println("超棒的");
+		System.out.println("超棒的阿");
 		session.getTransaction().commit();
 		
 		factory.close();
