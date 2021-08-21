@@ -15,8 +15,9 @@ public class TestHibernateCriteriaEx1 {
 		session.createSQLQuery("");
 		
 		session.getTransaction().commit();
-		
+		session.close();
 		factory.close();
+		
 	}
 
 }
