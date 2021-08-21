@@ -11,7 +11,7 @@ public class TestHibernateCriteriaEx1 {
 		SessionFactory factory = new Configuration().configure().buildSessionFactory();
 		Session session = factory.getCurrentSession();
 		session.beginTransaction();
-		
+		System.out.println("哇哈");
 		session.createSQLQuery("");
 		session.getTransaction().commit();	
 		factory.close();
